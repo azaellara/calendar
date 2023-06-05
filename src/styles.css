@@ -1,0 +1,43 @@
+.app {
+    text-align: center;
+}
+
+.calendar {
+    margin: 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.weekdays {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+}
+
+.day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-weight: 600;
+    border: 1px solid #ccc;
+}
+
+.current-day {
+    background-color: #007bff;
+    color: white;
+}
